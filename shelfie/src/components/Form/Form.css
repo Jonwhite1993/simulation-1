@@ -1,0 +1,21 @@
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    border-left: 2px solid #6DD48D;
+    border-right: 2px solid #6DD48D;
+    border-top: 2px solid #6DD48D;
+    border-bottom: 2px solid #6DD48D;
+    text-align: center;
+    margin-bottom: 5px; 
+    padding: 5px;
+    background: #6DD48D;
+}
+
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: bold;
+    font-size: 35px;
+    flex-flow: row;
+    text-decoration: underline;
+
+
+}

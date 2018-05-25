@@ -1,9 +1,12 @@
-import Reac, { Component } from 'react';
+import React, { Component } from 'react';
+import Product from './Product';
 
 class Dashboard extends Component {
-    return() {
-        render (    
-            <div> DashBoard </div> 
+    render() {
+        return (
+            <div> DashBoard 
+                <Product />
+            </div>
         );
     }
 }
