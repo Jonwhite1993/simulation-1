@@ -12,8 +12,8 @@ massive( process.env.CONNECTION_STRING).then( dbInstance => {app.set('db', dbIns
 
 
 //Endpoints my dude
-app.get('/api/products', ctrl.getAll)
 app.post('/api/products', ctrl.addProduct)
+app.get('/api/products', ctrl.getAll)
 
 
 
